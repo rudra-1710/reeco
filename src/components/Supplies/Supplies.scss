@@ -1,0 +1,34 @@
+.box-supplie{
+    border-right: 1px solid #52525277;
+}
+.supplies{
+    border-radius: 10px;
+    border: 1px solid #94949477;
+}
+.suplie-heading{
+    color: rgb(168, 168, 168);
+}
+.suplie-text{
+    font-weight: 500;
+    font-size: 20px;
+}
+.last-supplie{
+    border: none !important;
+}
+.supplies p{
+    margin-bottom: 1px !important;
+}
+@media(max-width:991px){
+    .md-border{
+        border-right: 0px !important;
+    }
+    .box-supplie{
+        margin: 15px auto;
+    }
+}
+@media(max-width:450px){
+    .supplies svg{
+        padding: 0px;
+        width: 10px;
+    }
+}

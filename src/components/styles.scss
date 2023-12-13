@@ -1,0 +1,21 @@
+@import '~antd/dist/antd.less'; // Import Ant Design styles
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.site-layout-background {
+  background-color: #006400; // Dark green color
+  padding: 0;
+}
+
+.logo {
+  float: left;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  padding: 6px 2px 6px 0;
+  font-size: 18px;
+  white-space: nowrap;
+  color: white;
+}

@@ -1,0 +1,33 @@
+.search-field{
+    max-width: 500px;
+}
+.btn-border{
+    transition: 0.3s;
+    color: var(--theme-color) !important;
+    border:1px solid var(--theme-color) !important
+}
+.btn-border:hover{
+    color: white !important;
+    transition: 0.3s;
+    background-color: var(--theme-color) !important;
+    border:1px solid var(--theme-color) !important
+}
+.modal-btn p{
+    font-size: 10px;
+}
+.actions div{
+    cursor: pointer;
+}
+.input-width{
+    max-width: 100px;
+}
+.optional{
+    color: rgb(163, 163, 163);
+}
+.border-bac{
+    background-color: var(--theme-color) !important;
+    color: white !important;
+}
+.t-head{
+    font-weight: 600 !important;
+}
