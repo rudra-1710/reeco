@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import Breadcrumlink from '../Breadcrum/Breadcrumlink'
 import Supplies from '../Supplies/Supplies'
-import TabelData from '../TabelData/TabelData'
+import Tabel from '../Tabel/Tabel'
 
 function Dashboard() {
   return (
@@ -11,7 +11,7 @@ function Dashboard() {
         <Breadcrumlink />
         <div className='bac-color pt-5'>
         <Supplies />
-        <TabelData />
+        <Tabel />
         </div>
     </div>
   )
